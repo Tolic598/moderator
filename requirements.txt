@@ -1,2 +1,3 @@
 aiogram
 numpy
+matplotlib
