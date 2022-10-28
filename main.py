@@ -5,7 +5,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 async def on_startup(_):
 	print('Бот онлайн')
 
-from handers import client, admin
+from handers import client
 
 client.register_handlers_client(dp)
 # admin.register_handlers_admin(dp)
